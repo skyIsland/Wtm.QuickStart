@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wtm.QuickStart", "Wtm.QuickStart\Wtm.QuickStart.csproj", "{7EDBE595-50A0-45F2-9E50-48B32115A836}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wtm.QuickStart", "Wtm.QuickStart\Wtm.QuickStart.csproj", "{7EDBE595-50A0-45F2-9E50-48B32115A836}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wtm.QuickStart.ViewModel", "Wtm.QuickStart.ViewModel\Wtm.QuickStart.ViewModel.csproj", "{288087CC-650C-4772-8DA5-AD62400F0D6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wtm.QuickStart.DataAccess", "Wtm.QuickStart.DataAccess\Wtm.QuickStart.DataAccess.csproj", "{138BAE4F-8ACF-4CE6-9A3B-FF5FFF613BC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wtm.QuickStart.Model", "Wtm.QuickStart.Model\Wtm.QuickStart.Model.csproj", "{2BDA7712-05BB-48FB-A2AC-214FE2B93A0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{7EDBE595-50A0-45F2-9E50-48B32115A836}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EDBE595-50A0-45F2-9E50-48B32115A836}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EDBE595-50A0-45F2-9E50-48B32115A836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288087CC-650C-4772-8DA5-AD62400F0D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288087CC-650C-4772-8DA5-AD62400F0D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288087CC-650C-4772-8DA5-AD62400F0D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288087CC-650C-4772-8DA5-AD62400F0D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138BAE4F-8ACF-4CE6-9A3B-FF5FFF613BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138BAE4F-8ACF-4CE6-9A3B-FF5FFF613BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138BAE4F-8ACF-4CE6-9A3B-FF5FFF613BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138BAE4F-8ACF-4CE6-9A3B-FF5FFF613BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDA7712-05BB-48FB-A2AC-214FE2B93A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDA7712-05BB-48FB-A2AC-214FE2B93A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDA7712-05BB-48FB-A2AC-214FE2B93A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDA7712-05BB-48FB-A2AC-214FE2B93A0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
