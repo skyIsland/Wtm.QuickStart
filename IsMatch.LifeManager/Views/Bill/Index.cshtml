@@ -1,0 +1,10 @@
+﻿@model IsMatch.LifeManager.ViewModel.BillVMs.BillListVM
+
+<wt:searchpanel vm="@Model" reset-btn="true">
+<wt:row items-per-row="ItemsPerRowEnum.Three">
+<wt:combobox field="Searcher.BillType" empty-text="全部" />
+<wt:combobox field="Searcher.BillDetailType" empty-text="全部" />
+<wt:datetime field="Searcher.AddTime" />
+</wt:row>
+</wt:searchpanel>
+<wt:grid vm="@Model" />

@@ -13,7 +13,7 @@ namespace IsMatch.LifeManager.Controllers
         [AllRights]
         public IActionResult Index()
         {
-            ViewData["title"] = "IsMatch.LifeManager";
+            ViewData["title"] = "生活管理~~";
             var vm = CreateVM<IndexVM>();
             vm.AllMenu = FFMenus;
             return View(vm);

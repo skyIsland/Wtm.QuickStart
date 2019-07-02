@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using IsMatch.LifeManager.Model;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,8 @@ namespace IsMatch.LifeManager.DataAccess
 {
     public class DataContext : FrameworkContext
     {
+        public DbSet<Bill> Bills { get; set; }
+
         public DataContext(string cs, DBTypeEnum dbtype)
              : base(cs, dbtype)
         {

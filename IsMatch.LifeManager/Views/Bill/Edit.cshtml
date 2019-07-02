@@ -1,0 +1,17 @@
+﻿@model IsMatch.LifeManager.ViewModel.BillVMs.BillVM
+
+<wt:form vm="@Model">
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+<wt:textbox field="Entity.ID" />
+<wt:textbox field="Entity.Title" />
+<wt:textbox field="Entity.Summary" />
+<wt:textbox field="Entity.Money" />
+<wt:combobox field="Entity.BillType" />
+<wt:combobox field="Entity.BillDetailType" />
+</wt:row>
+    <wt:hidden field="Entity.ID" />
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton />
+        <wt:closebutton />
+    </wt:row>
+</wt:form>
