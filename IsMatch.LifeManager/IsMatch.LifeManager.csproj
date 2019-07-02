@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>true</CopyRefAssembliesToPublishDirectory>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  
+    <CopyRefAssembliesToPublishDirectory>true</CopyRefAssembliesToPublishDirectory>
+</PropertyGroup>
+
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="WalkingTec.Mvvm.TagHelpers.LayUI" Version="2.2.45" />
+    <PackageReference Include="WalkingTec.Mvvm.Mvc.Admin" Version="2.2.45" />
+ </ItemGroup>
+
+  <ItemGroup>
+   <ProjectReference Include="..\IsMatch.LifeManager.Model\IsMatch.LifeManager.Model.csproj" />
+    <ProjectReference Include="..\IsMatch.LifeManager.DataAccess\IsMatch.LifeManager.DataAccess.csproj" />
+    <ProjectReference Include="..\IsMatch.LifeManager.ViewModel\IsMatch.LifeManager.ViewModel.csproj" />
+ </ItemGroup >
+</Project>
+
+
