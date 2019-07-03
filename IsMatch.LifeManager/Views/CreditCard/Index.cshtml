@@ -1,0 +1,9 @@
+﻿@model IsMatch.LifeManager.ViewModel.CreditCardVMs.CreditCardListVM
+
+<wt:searchpanel vm="@Model" reset-btn="true">
+<wt:row items-per-row="ItemsPerRowEnum.Three">
+<wt:combobox field="Searcher.CreditCardType" empty-text="全部" />
+<wt:combobox field="Searcher.MoneyType" empty-text="全部" />
+</wt:row>
+</wt:searchpanel>
+<wt:grid vm="@Model" />

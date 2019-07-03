@@ -1,0 +1,16 @@
+﻿@model IsMatch.LifeManager.ViewModel.CreditCardVMs.CreditCardVM
+
+<wt:form vm="@Model">
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+<wt:datetime field="Entity.ReturnDate" />
+<wt:datetime field="Entity.BillDate" />
+<wt:combobox field="Entity.CreditCardType" />
+<wt:combobox field="Entity.MoneyType" />
+<wt:combobox field="Entity.Money" />
+</wt:row>
+    <wt:hidden field="Entity.ID" />
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton />
+        <wt:closebutton />
+    </wt:row>
+</wt:form>

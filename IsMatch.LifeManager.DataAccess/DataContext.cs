@@ -11,6 +11,8 @@ namespace IsMatch.LifeManager.DataAccess
     {
         public DbSet<Bill> Bills { get; set; }
 
+        public DbSet<CreditCard> CreditCards { get; set; }
+
         public DataContext(string cs, DBTypeEnum dbtype)
              : base(cs, dbtype)
         {
